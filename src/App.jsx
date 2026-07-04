@@ -450,16 +450,6 @@ function App() {
                     </div>
                   )}
 
-                {/* Spectrum Chart - temporarily disabled */}
-                {false && (
-                  <div className="rounded-xl border border-gray-200 bg-white p-4 shadow-md">
-                    <h4 className="mb-3 text-sm font-medium text-gray-700">
-                      Spectrum Comparison
-                    </h4>
-                    <p>Chart temporarily disabled</p>
-                  </div>
-                )}
-
                 {/* Raw JSON (debug) */}
                 <details className="rounded-xl border border-gray-200 bg-gray-50 p-4">
                   <summary className="cursor-pointer text-sm font-medium text-gray-700">
